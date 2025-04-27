@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            ul{
+                list-style: none;
+                padding: 0;
+            }
+            li{
+                display: inline-block;
+                background: gray;
+                border-radius: 10px;
+            }
+            .mistah-ian{
+                display: flex;
+            }
+            .mistah-ian div{
+                width: 100%;
+                margin: 21px;
+            }
+            li{
+                text-decoration: none;
+            }
+            li:hover{
+                text-decoration: underline;
+            }
+            .mistah-ian.sales div{
+                background: gray;
+            }
+            .mistah-ian.closeouts div{
+                background: rgb(250, 10, 10);
+            }
+            li:last-child{
+                background: rgb(12, 241, 4);
+            }
+        </style>
+        <title>test practice</title>
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html"></a>Home</li>
+            <li><a href="contacts.html"></a>Contact</li>
+            <li><a href="locations.html"></a>Locations</li>
+            <li><a href="directions.html"></a>Directions</li>
+        </ul>
+        <section class="mistah-ian sales">
+            <div>Section a</div>
+            <div>Section b</div>
+            <div>Section c</div>
+        </section>
+        <section class="mistah-ian closeouts">
+            <div>Section d</div>
+            <div>Section e</div>
+        </section>
+    </body>
+</html>
